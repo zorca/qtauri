@@ -1,0 +1,33 @@
+{
+  "productName": "qtauri-app",
+  "version": "0.0.0",
+  "identifier": "qtauri.dev",
+  "build": {
+    "beforeDevCommand": "quasar dev",
+    "devUrl": "http://localhost:9000",
+    "beforeBuildCommand": "quasar build",
+    "frontendDist": "../dist/spa"
+  },
+  "app": {"windows": [
+      {
+        "title": "qtauri-app",
+        "width": 800,
+        "height": 600
+      }
+    ],
+    "security": {
+      "csp": null
+    }
+  },
+  "bundle": {
+    "active": true,
+    "targets": "all",
+    "icon": [
+      "icons/32x32.png",
+      "icons/128x128.png",
+      "icons/128x128@2x.png",
+      "icons/icon.icns",
+      "icons/icon.ico"
+    ]
+  }
+}
