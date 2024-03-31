@@ -4,37 +4,37 @@ Quasar Template with Tauri
 
 ## Install the dependencies
 ```bash
-yarn
-# or
 npm install
 ```
 
 ### Start the app in development mode (hot-code reloading, error reporting, etc.)
 ```bash
-quasar dev
+npm run dev
 ```
-
 
 ### Lint the files
 ```bash
-yarn lint
-# or
 npm run lint
 ```
 
-
 ### Format the files
 ```bash
-yarn format
-# or
 npm run format
 ```
 
-
-
 ### Build the app for production
 ```bash
-quasar build
+npm run build
+```
+
+### Start the app in Tauri development mode
+```bash
+npm run tauri dev
+```
+
+### Build the desktop or mobile app for production
+```bash
+npm run tauri build
 ```
 
 ### Customize the configuration
